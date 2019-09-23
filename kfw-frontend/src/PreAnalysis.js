@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
+import './App.css';
+import PreAnalysisTable from './preanalysistable/PreAnalysisTable';
 
 class PreAnalysis extends Component {
     render() {
-      return <h1>PreAnalysis</h1>
+      return (
+        <div className="App">
+          <PreAnalysisTable />
+        </div>
+      )
     }
 }
   
