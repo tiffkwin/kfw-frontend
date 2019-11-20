@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-import PreAnalysisTable from './preanalysistable/PreAnalysisTable';
+import PreAnalysisIntake from './PreAnalysisIntake/PreAnalysisIntake';
+// import PreAnalysisTable from './preanalysistable/PreAnalysisTable';
+
 
 class PreAnalysis extends Component {
     render() {
       return (
         <div className="App">
-          <PreAnalysisTable />
+          <div className="Card" style={{justifyContent:'center'}}>
+          <PreAnalysisIntake/>
+          </div>
+          {/* <PreAnalysisTable /> */}
         </div>
       )
     }
