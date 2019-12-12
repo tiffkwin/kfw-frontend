@@ -5,12 +5,14 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import PreAnalysis from './PreAnalysis';
+import Download from './Download';
 
 const routing = (
     <Router>
       <div>
         <Route exact path="/" component={App} />
         <Route path="/pre-analysis" component={PreAnalysis} />
+        <Route path="/download" component={Download} />
       </div>
     </Router>
   )

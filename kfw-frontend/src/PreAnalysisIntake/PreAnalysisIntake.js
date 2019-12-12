@@ -42,9 +42,10 @@ class PreAnalysisIntake extends Component {
                 experiment_id: this.state.id,
                 sub_repetitions: [],
                 additions_list: this.state.additions_list,//["Buffer", "Mito", "Substrate", "PCR", "Drug", "Vehicle", "FCCP", "Oligo"],
-                group_descriptions: ["group 1"]
+                group_descriptions: ["group 1"],
+                times: []
             }))
-
+            window.open("/download", "_self")
     }
 
     handleAddChipS = (chip) => {

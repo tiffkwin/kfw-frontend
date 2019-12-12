@@ -118,7 +118,7 @@ class Upload extends Component {
         
             req.open("POST", "http://localhost:5000/upload");
             req.send(formData);
-            window.open("/pre-analysis"); // takes you to the next step
+            window.open("/pre-analysis", "_self"); // takes you to the next step
         });
     }
   
